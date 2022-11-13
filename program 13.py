@@ -22,7 +22,8 @@ def search():
             print (f"dept id: {id[0]}, name is: {id[1]}, and city is: {id[2]}")
             exist=True
     if exist==False:
-        print("doesnt exist")                   
+        print("doesnt exist")
+#main        
     
 while True:
     ch_1 = print("1. Create Csv File")
